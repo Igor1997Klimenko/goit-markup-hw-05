@@ -67,7 +67,7 @@ img {
 .link {
   margin: 0;
 }
-.list::after {
+.list-hero::after {
   content: "";
   width: 100%;
   height: 4px;
