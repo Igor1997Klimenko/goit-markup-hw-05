@@ -52,9 +52,12 @@
         <div class="container">
         
         <h1 class="title">Эффективные решения для вашего бизнеса</h1>
-        <button class="buttons" type="button">Заказать услугу</button>
+        <button class="buttons" type="button" data-modal-open>Заказать услугу</button>
         </div>
+        
     </section>
+
+    
 
 <!--Key qualities of success-->
 
@@ -376,5 +379,11 @@
                 </div>
         </div>
     </footer>
+    <div class="backdrop is-hidden" data-modal>
+        <div class="modal">
+            <button class="modal-close-btn" data-modal-close>X</button>
+        </div>
+    </div>
+    <script src="./js/modal.js"></script>
 </body>
 </html>
