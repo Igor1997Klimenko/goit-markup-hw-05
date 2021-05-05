@@ -410,14 +410,18 @@ img {
   margin-left: 30px;
   margin-top: 30px;
 }
-
-.items:hover,
-.items:focus {
+.item-link-stylle:hover .portfoll,
+.item-link-stylle:focus .portfoll {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 .item-link-stylle {
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.item-link-stylle:hover .modal-text,
+.item-link-stylle:focus .modal-text {
+  opacity: 1;
+  transform: translateY(0%);
 }
 .tem-item {
   flex-basis: calc((100% - 3 * 30px) / 3);
@@ -455,7 +459,7 @@ img {
   background-color: rgba(33, 150, 243, 0.9);
   color: rgba(255, 255, 255, 1);
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  /*transform: translateY(100%);*/
+  transform: translateY(100%);
 }
 
 .modal-text:hover {
