@@ -439,6 +439,7 @@ img {
   padding: 0;
 }
 .navi-items {
+  overflow: hidden;
   display: block;
   position: relative;
 }
