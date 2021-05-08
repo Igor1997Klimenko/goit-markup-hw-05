@@ -327,6 +327,7 @@ img {
   height: 11px;
   width: 11px;
 }
+
 /*Должности компании*/
 .section {
   text-align: center;
@@ -407,20 +408,27 @@ img {
 .items-time-ul {
   position: relative;
 }
-.text-parag {
-  width: 100%;
-  padding: 27px 0;
-  margin: 0;
+.managger {
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   position: absolute;
+  width: 100%;
   bottom: 0;
   left: 0;
+  margin: 0;
   background-color: rgba(47, 48, 58, 0.8);
+}
+.text-parag {
+  position: absolute;
   color: var(--alt-title-cl);
   font-weight: bold;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  margin: 0;
 }
 .items {
   margin-left: 30px;
